@@ -1,8 +1,0 @@
-apollo:
-  bootstrap:
-    enabled: true
-    namespaces: application,babyfs.db_instance,babyfs.redis-servers,babyfs.grpc
-
-spring:
-  application:
-    name: web-server-demo
