@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "com.babyfs.servicetk.demo";
+option java_multiple_files = true;
+
+
+package demo.api;
+
+service DemoService {
+    rpc say (SayRequest) returns (SayReply) {
+    };
+}
+
+message SayRequest {
+    string msg = 1;
+}
+
+message SayReply {
+    string result = 1;
+}
+
